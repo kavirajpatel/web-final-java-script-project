@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/js final project/base.css">
+    <link rel="stylesheet" href="/js final project/homepage/homepage.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="logo"><a href="#"><span>Shop</span>lane</a></div>
+                <a href="#">Clothing</a>
+                <a href="#">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass" style="color: #999999;"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories">
+            </div>
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                </div>
+                <img src="/js final project/assets/myavatar.jpeg">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main-section">
+            <h1 id="main-heading">Checkout</h1>
+
+            <div id="content-wrapper">
+                <div id="card-list">
+                    <h3 class="section-heading">Total Items: <span id="item-count">0</span></h3>
+                    <ul id="cart-items-list">
+                        <!-- Cart items will be added here dynamically -->
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="section-heading">Total Amount</h3>
+                    <p id="total-amount">Total Amount: Rs 0.00</p>
+                    <button id="btn-place-order">Place Order</button>
+                    <div id="order-success-message" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="checkout.js"></script>
+    <!-- <script src="/js final project/detailsData/previewpage.js"></script> -->
+</body>
+</html>

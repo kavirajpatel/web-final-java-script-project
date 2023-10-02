@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: aqua;
+        }
+        .circle{
+            background-color: rgb(14, 95, 0);
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            position: relative;
+            animation-name: kavi;
+            animation-duration: 3s;
+            animation-iteration-count: 5;
+        }
+        @keyframes kavi {
+            from{
+width: 200px;
+            }
+            to{
+width: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle">
+            circle
+        </div>
+    </div>
+</body>
+
+</html>

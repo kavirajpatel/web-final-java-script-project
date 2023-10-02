@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.myheader {
+    margin: 0;
+}
+
+.mynavbar {
+    height: 23px;
+
+}
+
+.mymid .myunorderlist .list a {
+    padding-bottom: 0;
+    padding-top: 0;
+    color: #FE5D20;
+}
+
+.myleft {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 40px;
+}
+
+.mylogoclass {
+    width: 120px;
+    margin-left: 80px;
+}
+
+.mymid {
+    display: block;
+    width: 30%;
+    margin: 22px auto;
+    font-size: 20px;
+    color: #9896a5;
+    top: 40px;
+    margin-top: 60px;
+}
+
+.myunorderlist {
+    margin-top: 25px;
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+}
+
+.list:hover {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 5px solid #8071D0;
+    transition: .2s ease-in-out;
+}
+
+.myunorderlist li a {
+    text-decoration: none;
+    color: black;
+    padding: 34px 23px;
+}
+
+.myright {
+    position: absolute;
+    right: 34px;
+    top: 15px;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.youraccountbutton {
+    border: none;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.youraccountbutton:hover {
+    cursor: pointer;
+    background-color: #fde4e7;
+}
+
+.mymain {
+    display: flex;
+    margin: 0px 120px 0px 120px;
+}
+
+.mycontainer1 {
+    padding-top: 10px;
+    padding-left: 130px;
+    padding-left: 130px;
+    height: 377px;
+    width: 32%;
+}
+
+.mystunning {
+    font-family: 'Sora', sans-serif;
+    font-size: 80px;
+    font-size: -webkit-xxx-large;
+}
+
+.mystunningpara {
+    color: #9896a5;
+}
+
+.mybold {
+    color: #1654be;
+}
+
+.newbtnsection {
+    display: flex;
+    padding-top: 18px;
+}
+.myarrows:hover{
+    cursor: pointer;
+}
+
+.newbutton {
+    color: white;
+    background-color: #5243C0;
+    border: none;
+    padding: 0 45px;
+    border-radius: 20px;
+    height: 58px;
+}
+
+.newbutton:hover {
+    cursor: pointer;
+    background-color: #4a3f9b;
+}
+
+.mycontainer2 {
+    width: 30%;
+}
+
+
+.mycardsdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    border-radius: 17px;
+    padding: 5px 0px; 
+    
+}
+.mycardsdiv:hover{
+    background-position: 1px 5px;
+    background-image: url('/stunning landing page by kaviraj/assets/tick-blue.jpg');
+    background-repeat: no-repeat;
+}
+ 
+
+.mycardsdiv:hover {
+    box-shadow: 2px 2px 15px #8b8c84, -2px -2px 15px #7c7b82;
+    background-color: white;
+    cursor: pointer;
+    background-position: 17px 15px;
+    .checkimg{
+        visibility: hidden;
+    } 
+    
+}
+
+.mycheck {
+    margin-left: 17px;
+    display: flex;
+    align-items: center; 
+}
+
+.mylastpara{
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    margin-left: 15px; 
+}
+.mydatepara{
+    font-size: 15px;
+    color: #887e7c;
+}
+
+#button1 {
+    margin-right: 6px;
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #FED7DA;
+}
+
+#button2 {
+    margin-right: 6px;
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #FD6534;
+}
+
+#button3 {
+    margin-right: 6px;
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #9ED095;
+}
+
+#button4 {
+    margin-right: 6px;
+    padding: 8px 16px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #FFE4A0;
+}
